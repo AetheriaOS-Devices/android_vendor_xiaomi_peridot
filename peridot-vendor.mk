@@ -665,28 +665,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/firmware/evass-lt.b19:$(TARGET_COPY_OUT_ODM)/firmware/evass-lt.b19 \
     vendor/xiaomi/peridot/proprietary/odm/firmware/evass-lt.mbn:$(TARGET_COPY_OUT_ODM)/firmware/evass-lt.mbn \
     vendor/xiaomi/peridot/proprietary/odm/firmware/evass-lt.mdt:$(TARGET_COPY_OUT_ODM)/firmware/evass-lt.mdt \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b00:$(TARGET_COPY_OUT_ODM)/firmware/evass.b00 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b01:$(TARGET_COPY_OUT_ODM)/firmware/evass.b01 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b02:$(TARGET_COPY_OUT_ODM)/firmware/evass.b02 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b03:$(TARGET_COPY_OUT_ODM)/firmware/evass.b03 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b04:$(TARGET_COPY_OUT_ODM)/firmware/evass.b04 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b05:$(TARGET_COPY_OUT_ODM)/firmware/evass.b05 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b06:$(TARGET_COPY_OUT_ODM)/firmware/evass.b06 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b07:$(TARGET_COPY_OUT_ODM)/firmware/evass.b07 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b08:$(TARGET_COPY_OUT_ODM)/firmware/evass.b08 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b09:$(TARGET_COPY_OUT_ODM)/firmware/evass.b09 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b10:$(TARGET_COPY_OUT_ODM)/firmware/evass.b10 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b11:$(TARGET_COPY_OUT_ODM)/firmware/evass.b11 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b12:$(TARGET_COPY_OUT_ODM)/firmware/evass.b12 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b13:$(TARGET_COPY_OUT_ODM)/firmware/evass.b13 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b14:$(TARGET_COPY_OUT_ODM)/firmware/evass.b14 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b15:$(TARGET_COPY_OUT_ODM)/firmware/evass.b15 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b16:$(TARGET_COPY_OUT_ODM)/firmware/evass.b16 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b17:$(TARGET_COPY_OUT_ODM)/firmware/evass.b17 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b18:$(TARGET_COPY_OUT_ODM)/firmware/evass.b18 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.b19:$(TARGET_COPY_OUT_ODM)/firmware/evass.b19 \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.mbn:$(TARGET_COPY_OUT_ODM)/firmware/evass.mbn \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/evass.mdt:$(TARGET_COPY_OUT_ODM)/firmware/evass.mdt \
     vendor/xiaomi/peridot/proprietary/odm/firmware/focaltech_ts_fw_TianMa.bin:$(TARGET_COPY_OUT_ODM)/firmware/focaltech_ts_fw_TianMa.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/focaltech_ts_fw_TianMa2.bin:$(TARGET_COPY_OUT_ODM)/firmware/focaltech_ts_fw_TianMa2.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/fs19xx.fsm:$(TARGET_COPY_OUT_ODM)/firmware/fs19xx.fsm \
