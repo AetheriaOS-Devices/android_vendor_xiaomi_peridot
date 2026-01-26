@@ -676,7 +676,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/firmware/goodix_firmware_peridot_csot_second.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_firmware_peridot_csot_second.bin \
     vendor/xiaomi/peridot/proprietary/odm/firmware/goodix_test_limits_255.csv:$(TARGET_COPY_OUT_ODM)/firmware/goodix_test_limits_255.csv \
     vendor/xiaomi/peridot/proprietary/odm/firmware/vpu30_2v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_2v.mbn \
-    vendor/xiaomi/peridot/proprietary/odm/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu33_4v.mbn \
     vendor/xiaomi/peridot/proprietary/odm/lib64/bm3b68v04s12n52.bin:$(TARGET_COPY_OUT_ODM)/lib64/bm3b68v04s12n52.bin \
     vendor/xiaomi/peridot/proprietary/odm/lib64/bm3b68v04s12n53.bin:$(TARGET_COPY_OUT_ODM)/lib64/bm3b68v04s12n53.bin \
     vendor/xiaomi/peridot/proprietary/odm/lib64/bm3b73v04s12n02.bin:$(TARGET_COPY_OUT_ODM)/lib64/bm3b73v04s12n02.bin \
