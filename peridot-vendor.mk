@@ -1057,15 +1057,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/qcril_database/upgrade/other/0013_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0013_version_update_ecc_table.sql \
     vendor/xiaomi/peridot/proprietary/vendor/etc/qcril_database/upgrade/other/0014_version_update_modules.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0014_version_update_modules.sql \
     vendor/xiaomi/peridot/proprietary/vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua.txt \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua_6dof_config.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua_qvr_3dof_tracker_config.txt \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/qvr/cfg/557/0/65536/mtplanai.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/557/0/65536/mtplanai.txt \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/qvr/cfg/557/0/65536/mtplanai_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/557/0/65536/mtplanai_6dof_config.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/qvr/cfg/557/0/65536/mtplanai_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/557/0/65536/mtplanai_qvr_3dof_tracker_config.txt \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/qvr/qvr_hid_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_hid_device_list.txt \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
     vendor/xiaomi/peridot/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
@@ -1087,7 +1078,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/xiaomi/peridot/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
@@ -1173,7 +1163,6 @@ PRODUCT_PACKAGES += \
     libApeSwDec \
     libCB \
     libCneAppJni \
-    libDspIOProxy_stub \
     libEvrcSwCodec \
     libFace3DTA \
     libFace3D_hlos \
@@ -1184,19 +1173,15 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libMapService \
     libMiVDR \
     libOpenCL \
     libOpenCL_adreno \
     libPeripheralStateUtils \
     libQ6MSFR_manager_stub \
-    libQEGA.qti \
     libQSEEComAPI \
     libQcelp13SwCodec \
     libQtiRilLoadable \
     libSNPESample \
-    libScenescape \
-    libStereoRectifyWrapper \
     libTrustedInputAIDL \
     libTrustedInputUtils \
     libTrustedUIAIDL \
@@ -1279,7 +1264,6 @@ PRODUCT_PACKAGES += \
     libesesbprovision \
     libeva \
     libeva_util \
-    libeye_tracking_dsp_sample_stub \
     libface3d_dev \
     libfastcrc \
     libfastcvdsp_stub \
@@ -1298,7 +1282,6 @@ PRODUCT_PACKAGES += \
     libgralloccore \
     libgrallocutils \
     libgsl \
-    libhalide_hexagon_host \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
@@ -1412,7 +1395,6 @@ PRODUCT_PACKAGES += \
     libperfgluelayer \
     libperfioctl \
     libperipheral_client \
-    libpolygon \
     libq-perflog \
     libqc2audio_base \
     libqc2audio_basecodec \
@@ -1499,13 +1481,6 @@ PRODUCT_PACKAGES += \
     libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
-    libqvr_cam_cdsp_driver_stub \
-    libqvr_cdsp_driver_stub \
-    libqvr_eyetracking_plugin \
-    libqvrcamera_client.qti \
-    libqvrcameraplayback \
-    libqvrservice \
-    libqvrservice_client.qti \
     libqwes \
     librcc \
     librcmask \
@@ -1574,7 +1549,6 @@ PRODUCT_PACKAGES += \
     libtlpd_crypto \
     libtlpd_internal \
     libtlpd_logger \
-    libtracker_6dof_impl \
     libtrustedapploader \
     libubwcp \
     libultrasound_notify \
@@ -1736,7 +1710,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom-V1-ndk \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.qxr-V1-ndk \
     vendor.qti.hardware.radio.am-V1-ndk \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
@@ -1814,7 +1787,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.memory.pasrmanager-V1-ndk \
     vendor.qti.qccvndhal_aidl-V1-ndk_vendor \
     vendor.qti.qccvndhal_aidl-halimpl \
-    vendor.qti.qegahal-V1-ndk_platform \
     vendor.qti.qesdhal-impl \
     vendor.qti.qesdhal@1.0 \
     vendor.qti.qesdhal@1.1 \
@@ -2418,7 +2390,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf2.xml \
     vendor.qti.hardware.qconfig-service.xml \
     vendor.qti.hardware.qseecom@1.0-service.xml \
-    vendor.qti.hardware.qxr-service.xml \
     vendor.qti.hardware.radio.am.xml \
     vendor.qti.hardware.radio.ims.xml \
     vendor.qti.hardware.radio.lpa.xml \
@@ -2473,7 +2444,6 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver-service.nxp-qti \
     qconfigservice \
     qcrilNrd \
-    qvrservice \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.display.color-service \
@@ -2518,8 +2488,6 @@ PRODUCT_PACKAGES += \
     qseecom_sample_client \
     qseecomd \
     qti \
-    qvrdatalogger \
-    qvrservicetest \
     qwes_cli \
     qwesd \
     rmt_storage \
