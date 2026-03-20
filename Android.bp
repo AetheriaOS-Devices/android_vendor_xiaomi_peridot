@@ -36195,6 +36195,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libsnpe_config.so",
             ],
             shared_libs: [
+                "liblog",
                 "libSNPE",
                 "libc++_shared",
                 "libc",
