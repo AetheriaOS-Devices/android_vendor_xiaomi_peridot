@@ -1245,6 +1245,8 @@ PRODUCT_PACKAGES += \
     libizat_client_api \
     libizat_core \
     libjnihelper \
+    libjpegdecoder_prebuilt \
+    libjpegencoder_prebuilt \
     libkaraokepal \
     libkcl \
     libkernelmanager \
@@ -1482,6 +1484,7 @@ PRODUCT_PACKAGES += \
     libtlpd_logger \
     libtrustedapploader \
     libubwcp \
+    libultrahdr_prebuilt \
     libultrasound_notify \
     libvideodiedobserver_vendor \
     libvideotxr \
